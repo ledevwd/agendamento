@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: NotoSans-Bold;
+    src: url(../fonts/Noto_Sans/NotoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: NotoSans-Regular;
+    src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: NotoSans-Thin;
+    src: url(../fonts/Noto_Sans/NotoSans-Thin.ttf);
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: #e6fbff;
+}
+
+#form-align {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#form-align h1 {
+    font-family: NotoSans-Bold;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#form-align h1 span {
+    font-family: NotoSans-Thin;
+}
+
+#form-scheduling {
+    height: 600px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+}
+
+#form-field {
+    width: 60%;
+    height: 100%;
+    background: #ffffff;
+    position: relative;
+    font-family: NotoSans-Regular;
+}
+
+#form-field div:first-child {
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#form-field label span {
+    display: block;
+    margin-top: 15px;
+}
+
+#form-field input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #a3a3a3;
+    margin: 10px 0;
+    outline: none;
+}
+
+#input-name {
+    background-image: url(../img/person-circle.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 16px) 50%;
+}
+
+#form-field div:first-child h2 {
+    font-family: NotoSans-Bold;
+    text-align: center;
+}
+
+#form-field div:first-child p {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#form-field div:first-child div {
+    margin-top: 20px;
+}
+
+#btn-schedule {
+    width: 150px;
+    padding: 10px;
+    display: block;
+    margin: 20px auto;
+    background: #00d4ff;
+    border: none;
+    cursor: pointer;
+}
+
+#form-about {
+    width: 40%;
+    height: 100%;
+    background: #0f7286;
+    background: linear-gradient(315deg, #0f7286 0%, #00d4ff 100%);
+    position: relative;
+}
+
+#form-about div {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+#form-about h2 {
+    font-family: NotoSans-Bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form-about p {
+    text-align: center;
+    font-family: NotoSans-Regular;
+}
+
+@media screen and (max-width: 1300px) {
+    #form-align {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #form-field {
+        width: 100%;
+    }
+
+    #form-about {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #form-field div:first-child {
+        width: calc(100% - 70px);
+        margin: 0 35px;
+        left: 0;
+        top: 55px;
+        transform: translate(0, 0);
+    }
+}
