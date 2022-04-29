@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: NotoSans-Bold;
-    src: url(../fonts/Noto_Sans/NotoSans-Bold.ttf);
+    src: url(../fonts/NotoSans-Bold.ttf);
 }
 
 @font-face {
     font-family: NotoSans-Regular;
-    src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf);
+    src: url(../fonts/NotoSans-Regular.ttf);
 }
 
 @font-face {
     font-family: NotoSans-Thin;
-    src: url(../fonts/Noto_Sans/NotoSans-Thin.ttf);
+    src: url(../fonts/NotoSans-Thin.ttf);
 }
 
 html {
