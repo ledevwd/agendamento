@@ -81,9 +81,6 @@ body {
     border: 1px solid #a3a3a3;
     background-color: #fff;
     margin: 10px 0;
-    background-image: url(../img/person-circle.svg);
-    background-repeat: no-repeat;
-    background-position: calc(100% - 16px) 50%;
 }
 
 #input-name {
