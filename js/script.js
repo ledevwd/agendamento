@@ -11,7 +11,7 @@ window.onload = () => {
         }
 
         else {
-            let formText = `SOLICITAÇÃO DE AGENDAMENTO\n\nNome: ${inputName.value}\nData: ${inputDate.value}\nHorário: ${inputTime.value}`;
+            let formText = `AGENDAMENTO\n\nNome: ${inputName.value}\nData: ${inputDate.value}\nHorário: ${inputTime.value}`;
 
             formText = window.encodeURIComponent(formText);
 
